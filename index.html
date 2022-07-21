@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="icon" href="simon_fabicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press GO to Start</h1>
+  <h2 id="go-heading">High Score: 0</h2>
+  <button class="goButton">GO</button>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  <div>
+    <p class="guide">How to play?</p>
+    <p class="guide">Firstly, the game shows the first colour in the sequence (blue). The user clicks on the blue button.</p>
+    <p class="guide">Next, the game shows the next colour (red), the user has to remember the sequence is blue, red and so on and so forth.</p>
+    <p class="guide">If the user messes up the sequence, then the game ends.</p>
+  </div>
+  <p>@ 2022 SuruchiGames</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
